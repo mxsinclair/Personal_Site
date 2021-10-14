@@ -38,3 +38,18 @@ h2 {
 h3 {
     font-size: 1.25rem;
 }
+
+.section_title {
+    margin-bottom: .25em;
+}
+
+.section_subtitle {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.section_subtitle--intro,
+.section_subtitle--about {
+    background: #1282a2;
+}
+
