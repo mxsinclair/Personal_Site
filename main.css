@@ -143,10 +143,11 @@ header {
 form {
     max-width: 420px;
     margin: 50px auto;
+    z-index: 100;
 }
 
 .contact-me_input {
-    color: azure;
+    color: black;
     border-radius: 5px;
     line-height: 22px;
     background-color: transparent;
