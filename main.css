@@ -7,7 +7,7 @@
 
 /* General Styles */
 body{
-    background: #fff;
+    background: #eee6e6;
     color: #303030;
     margin: 0;
     font-size: 1rem;
@@ -18,12 +18,16 @@ img {
     max-width: 100%;
 }
 
+section {
+    padding: 5em 2em;
+}
+
 /* Typography */
 
 h1,
 h2,
 h3 {
-    line-height: 1.1;
+    line-height: 1;
     margin: 0;
 }
 
@@ -50,6 +54,38 @@ h3 {
 
 .section_subtitle--intro,
 .section_subtitle--about {
-    background: #1282a2;
+    background: #5276eb;
+    color: azure;
+    margin-bottom: 1em;
+    padding: .25em 1em;
 }
 
+/* Intro Section */
+
+.intro {
+    position: relative;
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas: 
+        "img title"
+        "img subtitle";
+    grid-template-columns: min-content max-content;
+}
+
+.intro_image {
+    grid-area: img;
+    min-width: 250px;
+    position: relative;
+}
+
+.section_subtitle--intro{
+    align-self: flex-start;
+    grid-column: -1/1;
+    grid-row: 3;
+    text-align: right;
+    display: inline-block;
+}
+
+/* My Work Section */
