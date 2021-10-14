@@ -53,12 +53,26 @@ h3 {
 }
 
 .section_subtitle--intro,
+.section_subheader--work,
 .section_subtitle--about {
     background: #5276eb;
     color: azure;
     margin-bottom: 1em;
     padding: .25em 1em;
 }
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.nav {
+    position: fixed;
+}
+
+
 
 /* Intro Section */
 
@@ -89,3 +103,28 @@ h3 {
 }
 
 /* My Work Section */
+
+.my_work {
+    position: relative;
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* About Me Section */
+
+.about-me {
+    position: relative;
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Contact Me Section */
+
+.contact-me {
+    position: relative;
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+}
